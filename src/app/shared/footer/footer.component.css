@@ -1,0 +1,8 @@
+.gto-footer{
+  display: flex !important;
+  grid-column: auto;
+  justify-content: space-between;
+  background-color: #E4ECFA;
+  align-items: center;
+  margin: 0;
+}

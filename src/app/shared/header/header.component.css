@@ -1,0 +1,27 @@
+.container-header{
+  display: flex !important;
+  grid-auto-rows: auto;
+  justify-content: space-between;
+  background-color: #E4ECFA;
+  align-items: center;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item{
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+  padding: 0;
+  gap: 1rem; /* Espaciado entre elementos */
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 10px; /* Espaciado entre elementos */
+}
+
+
